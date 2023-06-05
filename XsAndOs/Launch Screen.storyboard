@@ -22,18 +22,28 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-MU-Tvq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="App" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-MU-Tvq">
                                 <rect key="frame" x="68.666666666666686" y="298" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="Wl3-gS-gnX"/>
+                                    <constraint firstAttribute="width" constant="256" id="kK0-o7-5kC"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4ck-cT-Mxu"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IKG-ax-rz9"/>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MQ9-M2-UsC"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
                             <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ULa-N6-LPL"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gog-Wk-pOF"/>
                             <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hVH-6m-4Gh"/>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="m5Y-30-Frc"/>
+                            <constraint firstItem="eEK-MU-Tvq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oUB-uw-WJN"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -43,7 +53,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreen" width="256" height="256"/>
+        <image name="App" width="1008" height="950"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
