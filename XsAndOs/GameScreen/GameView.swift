@@ -91,7 +91,7 @@ struct GameView: View {
                 .buttonStyle(.bordered)
             }
         }
-        .navigationTitle("Xs And Os")
+        .navigationTitle("Tic Tac Toe")
         .onAppear {
             game.reset()
         }

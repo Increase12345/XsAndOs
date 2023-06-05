@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401511AD2A2BBC5000CB89FE /* XsAndOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511AC2A2BBC5000CB89FE /* XsAndOsApp.swift */; };
+		401511AD2A2BBC5000CB89FE /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511AC2A2BBC5000CB89FE /* AppEntry.swift */; };
 		401511B12A2BBC5200CB89FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401511B02A2BBC5200CB89FE /* Assets.xcassets */; };
 		401511B42A2BBC5200CB89FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401511B32A2BBC5200CB89FE /* Preview Assets.xcassets */; };
 		401511BB2A2BBDB600CB89FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401511BA2A2BBDB600CB89FE /* Launch Screen.storyboard */; };
@@ -19,11 +19,12 @@
 		401511E72A2C32E800CB89FE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511E62A2C32E800CB89FE /* Extensions.swift */; };
 		401511E92A2C33C200CB89FE /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511E82A2C33C200CB89FE /* GameSquare.swift */; };
 		401511EB2A2C34D900CB89FE /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511EA2A2C34D900CB89FE /* SquareView.swift */; };
+		401511ED2A2D6BEB00CB89FE /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511EC2A2D6BEB00CB89FE /* YourNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		401511A92A2BBC5000CB89FE /* XsAndOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XsAndOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		401511AC2A2BBC5000CB89FE /* XsAndOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XsAndOsApp.swift; sourceTree = "<group>"; };
+		401511AC2A2BBC5000CB89FE /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
 		401511B02A2BBC5200CB89FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401511B32A2BBC5200CB89FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		401511BA2A2BBDB600CB89FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		401511E62A2C32E800CB89FE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		401511E82A2C33C200CB89FE /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		401511EA2A2C34D900CB89FE /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		401511EC2A2D6BEB00CB89FE /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				401511E52A2C32DC00CB89FE /* Extensions */,
-				401511AC2A2BBC5000CB89FE /* XsAndOsApp.swift */,
+				401511AC2A2BBC5000CB89FE /* AppEntry.swift */,
+				401511EC2A2D6BEB00CB89FE /* YourNameView.swift */,
 				401511BC2A2BBEAB00CB89FE /* StartView.swift */,
 				401511C42A2BCC7A00CB89FE /* GameScreen */,
 				401511C12A2BCB7400CB89FE /* Utilities */,
@@ -194,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401511AD2A2BBC5000CB89FE /* XsAndOsApp.swift in Sources */,
+				401511AD2A2BBC5000CB89FE /* AppEntry.swift in Sources */,
 				401511C02A2BBF2800CB89FE /* GameModels.swift in Sources */,
 				401511BD2A2BBEAB00CB89FE /* StartView.swift in Sources */,
 				401511E42A2C2F8000CB89FE /* GameService.swift in Sources */,
@@ -202,6 +205,7 @@
 				401511C62A2BCC8500CB89FE /* GameView.swift in Sources */,
 				401511EB2A2C34D900CB89FE /* SquareView.swift in Sources */,
 				401511E92A2C33C200CB89FE /* GameSquare.swift in Sources */,
+				401511ED2A2D6BEB00CB89FE /* YourNameView.swift in Sources */,
 				401511E72A2C32E800CB89FE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
