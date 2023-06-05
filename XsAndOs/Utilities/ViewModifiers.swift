@@ -27,3 +27,16 @@ extension View {
         self.modifier(NavStackContainer())
     }
 }
+
+struct PlayerButtonStyle: ButtonStyle {
+    let isCurrent: Bool
+    
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding(8)
+            .background(RoundedRectangle(cornerRadius: 10)
+                .fill(isCurrent ? Color.green: .gray)
+            )
+            .foregroundColor(.white)
+    }
+}
