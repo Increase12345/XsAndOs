@@ -22,6 +22,7 @@
 		401511ED2A2D6BEB00CB89FE /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511EC2A2D6BEB00CB89FE /* YourNameView.swift */; };
 		401511F12A2E62B100CB89FE /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511F02A2E62B100CB89FE /* MPConnectionManager.swift */; };
 		401511F32A2E68E300CB89FE /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511F22A2E68E300CB89FE /* MPGameMove.swift */; };
+		401511F52A2E793B00CB89FE /* MPPeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401511F42A2E793B00CB89FE /* MPPeersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		401511EE2A2E620A00CB89FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		401511F02A2E62B100CB89FE /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 		401511F22A2E68E300CB89FE /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		401511F42A2E793B00CB89FE /* MPPeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPeersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				401511F02A2E62B100CB89FE /* MPConnectionManager.swift */,
 				401511F22A2E68E300CB89FE /* MPGameMove.swift */,
+				401511F42A2E793B00CB89FE /* MPPeersView.swift */,
 			);
 			path = MultiPeerConnectivity;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				401511F12A2E62B100CB89FE /* MPConnectionManager.swift in Sources */,
 				401511AD2A2BBC5000CB89FE /* AppEntry.swift in Sources */,
 				401511C02A2BBF2800CB89FE /* GameModels.swift in Sources */,
+				401511F52A2E793B00CB89FE /* MPPeersView.swift in Sources */,
 				401511BD2A2BBEAB00CB89FE /* StartView.swift in Sources */,
 				401511E42A2C2F8000CB89FE /* GameService.swift in Sources */,
 				401511F32A2E68E300CB89FE /* MPGameMove.swift in Sources */,
