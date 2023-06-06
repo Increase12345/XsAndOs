@@ -12,7 +12,9 @@ struct YourNameView: View {
     @State private var userName = ""
     
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
+            Spacer()
+            
             Text("This is the name that will be associated with this device.")
                 .multilineTextAlignment(.center)
             TextField("Your Name", text: $userName)
@@ -21,6 +23,7 @@ struct YourNameView: View {
                 yourName = userName
             }
             .buttonStyle(.borderedProminent)
+            .bold()
             .disabled(userName.isEmpty)
             
             Image("App")
